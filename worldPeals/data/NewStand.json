@@ -1,0 +1,39 @@
+{
+    "NewStand": [
+        {
+            "name": "cucumber",
+            "image": "https://www.supermart.ng/cdn/shop/files/MILE180.jpg?v=1688725512",
+            "description": "Cucumbers are often hailed as the unsung heroes of the vegetable world. With their crisp texture, refreshing taste, and surprising versatility, cucumbers have earned a well-deserved spot in kitchens and gardens around the globe. From salads to skincare, these humble veggies pack a punch in both flavor and functionality. Despite their high water content (about 95%), cucumbers are surprisingly nutritious. They're low in calories but high in essential nutrients like vitamin K, vitamin C, potassium, and antioxidants. Incorporating cucumbers into your diet can contribute to hydration, aid digestion, and support overall health.",
+            "id": "1012"
+        },
+        {
+            "name": "Tumeric",
+            "image": "https://organiclivestockandcrops.org/wp-content/uploads/2018/03/organic-turmeric-1.jpg",
+            "description": "Turmeric, with its vibrant golden hue and earthy flavor, has been treasured for centuries in cultures around the world. Beyond its culinary uses, turmeric boasts a wealth of health benefits and has earned a reputation as a powerful healing spice. Let's delve into the wonders of turmeric and explore its many uses. Native to South Asia, turmeric has a rich history dating back thousands of years. It has been a staple in traditional Ayurvedic and Chinese medicine for its medicinal properties. Turmeric was also used as a dye, a symbol of prosperity, and a key ingredient in religious ceremonies.",
+            "id": "223"
+        },
+        {
+            "name": "Galic",
+            "image": "https://img.ws.mms.shopee.ph/4b22397b5ae8a363cf81b18b6686410e",
+            "description": "Garlic, with its pungent aroma and unmistakable flavor, has been a culinary staple for centuries. But beyond its ability to elevate dishes, garlic is also celebrated for its impressive array of health benefits. Let's peel back the layers and discover the wonders of this versatile bulb. Garlic has a rich history that spans cultures and continents. Native to Central Asia, garlic has been cultivated and consumed for over 5,000 years. Ancient civilizations revered garlic for its medicinal properties, using it to ward off illness, boost stamina, and even as currency.",
+            "id": "123"
+        },
+        {
+            "name": "tiger nut",
+            "image": "https://www.supermart.ng/cdn/shop/files/oyingbo168.jpg?v=1689078163",
+            "description": "Tiger nuts, despite their name, aren't nuts at all—they're small, tuberous rhizomes that grow underground. Also known as chufa nuts or earth almonds, tiger nuts have been a dietary staple for centuries, revered for their nutritional value and versatility. Let's explore the fascinating world of tiger nuts and discover why they're gaining popularity as a superfood. Tiger nuts have a long history of cultivation, dating back thousands of years to ancient Egypt. They were a dietary staple for early civilizations in Africa, Europe, and Asia, prized for their rich nutrient content and sustainable cultivation. Tiger nuts are an excellent source of fiber, vitamins, minerals, and healthy fats, making them a nutritious addition to any diet.",
+            "id": "213"
+        },
+        {
+            "name": "onions",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPNPnwXV0dnB13VjGvHR6P3B-fHvMsjnt5Rq16BHvsxg&s",
+            "description": "Onions are an indispensable ingredient in kitchens around the world, prized for their unique flavor and versatility. Whether raw, cooked, or caramelized, onions add depth and complexity to a wide range of dishes, from soups and stews to salads and stir-fries. Let's peel back the layers and discover why onions are essential in every culinary arsenal.",
+            "id": "224"
+        },
+        {
+            "name": "yam",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLrU5ZowwS5iFGiNdGr1sthOfmpgB9we-WzuqNAjKDg&s",
+            "description": "Yams, with their starchy flesh and earthy flavor, have been a dietary staple for centuries in regions around the world. These versatile tubers are not only delicious but also packed with essential nutrients, making them a valuable addition to any diet. Let's explore the wonders of yams and uncover why they're celebrated in cuisines across continents."
+        }
+    ]
+}

@@ -3,7 +3,9 @@ const Home = () => {
        <div className="home">
           <div className="intro-text">
           <h2>We’re farmers, purveyors, and eaters of organically grown food.</h2>
-          <button>Browse our shop</button>
+          <a href="/shop">
+            <button>Browse our shop</button>
+          </a>
         </div>
         <div className="images">
           <div className="img1"></div>

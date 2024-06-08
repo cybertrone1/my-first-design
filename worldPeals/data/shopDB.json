@@ -2,43 +2,50 @@
   "shops": [
     {
       "name": "mango",
-      "description": "Mango is a tropical fruit known for its sweet, juicy taste. It comes in various colors and sizes and is rich in vitamins and antioxidants.",
-      "image": "https://traicayvietflorida.com/wp-content/uploads/2021/09/mango-traicayvietflorida-scaled.jpeg",
+      "price": "$600",
+      "shipping": "$10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0RnWc9OAhw8yj_ql6Ghn8rSygoZGlatveIx1nhHDv4A&s",
       "id": "1"
     },
     {
       "name": "apple",
-      "description": "Apples are crisp, sweet or tart fruits that come in different colors like red, green, and yellow. They're packed with fiber, vitamins, and antioxidants.",
+      "price": "$80",
+      "shipping": "$5",
       "image": "https://www.ogbete.com.ng/wp-content/uploads/2020/06/apple.jpg",
       "id": "2"
     },
     {
       "name": "watermelon",
-      "description": "Watermelon is a refreshing fruit with juicy, pink flesh and black seeds. It's hydrating, low in calories, and contains vitamins A and C, as well as antioxidants like lycopene.",
-      "image": "https://images.news18.com/ibnlive/uploads/2022/03/watermelon-16470020754x3.jpg?impolicy=website&width=640&height=480",
+      "price": "$100",
+      "shipping": "$15",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNl3k3frJZx3ze5D0xI4PsNO_rtH4pV8vwi5r6_R4ATA&s",
       "id": "3"
     },
     {
       "name": "banana",
-      "description": "Banana is a curved, yellow fruit with a creamy texture and a sweet taste. It is rich in potassium, fiber, and vitamins, making it a nutritious snack.",
+      "price": "$270",
+      "shipping": "$20",
       "image": "https://www.kroger.com/product/images/large/back/0000000004011",
       "id": "4"
     },
     {
       "name": "grape",
-      "description": "Grapes are small, round fruits that grow in clusters on vines. They come in various colors like green, red, and purple and are packed with antioxidants and vitamins.",
+      "price": "$400",
+      "shipping": "$7",
       "image": "https://farmfreshfundraising.com/wp-content/uploads/2017/10/271156-grapes.jpg",
       "id": "5"
     },
     {
       "name": "carrot",
-      "description": "Carrot is a crunchy, orange vegetable known for its sweet flavor. It is high in beta-carotene, fiber, and vitamins, making it beneficial for eye health and overall well-being.",
+      "price": "$350",
+      "shipping": "$15",
       "image": "https://gracesbakery.uk/wp-content/uploads/2021/02/Carrots.jpg",
       "id": "6"
     },
     {
       "name": "orange",
-      "description": "Orange is a citrus fruit with a bright orange peel and juicy flesh. It is rich in vitamin C, antioxidants, and fiber, supporting immune function and promoting skin health.",
+      "price": "$600",
+      "shipping": "$10",
       "image": "https://catofoods.com/wp-content/uploads/2016/08/product-09.jpg",
       "id": "7"
     }
