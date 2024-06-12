@@ -1,6 +1,11 @@
 const NavBar = () => {
     return ( 
-        <div>NavBar</div>
+        <div className="navbar">
+            <div className="nav-img"></div>
+            <div className="nav-title">
+                <h1>nacos past question</h1>
+            </div>
+        </div>
      );
 }
  

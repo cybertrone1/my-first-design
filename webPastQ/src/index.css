@@ -1,68 +1,114 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+*{
   margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: #ffff;
+  width: 100%;
+  height: 50px;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar .nav-img{
+  width: 15%;
+  height: 30px;
+  margin: 10px  0 10px 10px;
+  background-image: url(./nav-img/NACOSS_site-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  line-height: 50px;
+}
+.navbar .nav-title{
+  font-size: 10px;
+  color: #20974e;
+  line-height: 50px;
+  margin: 0 10px 0 0;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: Helvetica;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* ReqDetails */
+.DisRequest{
+  width: 100%;
+  height: 100vh;
+  background-color: #20974e;
+}
+form label{
+  margin: 15px 10px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 300;
+  font-family: Helvetica;
+  text-transform: capitalize;
+}
+form select{
+  margin: 10px 0 10px 0;
+  padding: 0 3px;
+  width: 33%;
+  height: 20px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px #111;
+  background-color: #c4bebe50;
+}
+form input{
+  width: 24%;
+  height: 24px;
+  padding: 0 3px;
+  margin: 10px 0 10px 0;
+  outline: none;
+  box-shadow: 1px 1px 2px #111;
+  background-color: #c4bebe50;
+  border: 0 solid;
+  border-radius: 2px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.ReqForm{
+  position: absolute;
+  margin: auto;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.ReqForm form{
+  position: relative;
+  width: 290px;
+  margin: 20% 21%;
+  padding: 0 10px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* display content */
+
+.display-content{
+  width: 100%;
+}
+
+/* disDocument */
+.disDocument{
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+}
+/* home */
+.home{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.disDoc img{
+  width: 50px;
+  height: 50px;
 }
