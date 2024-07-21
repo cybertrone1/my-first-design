@@ -33,6 +33,7 @@
   font-size: 20px;
   line-height: 40px;
   letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
   margin-left: 10px;
 }
@@ -47,32 +48,31 @@
   background-size: cover;
 }
 /* home container */
-
 .homeContent{
   width: 100%;
-  height: 100vh;
-  background-color: antiquewhite;
+  background-color: #134B70;
   padding: 5px 0 0 0;
 }
 .homeContent .search-sec{
   width: 95%;
-  height: 5vh;
+  height: 7vh;
   margin: auto;
-  background-color: black;
+  background-color: #201E43;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  padding: 15px 0 0 0;
+  padding: 15px 4px;
 }
 .search-sec input{
-  width: 65%;
+  width: 60%;
   height: 20px;
   outline: none;
   padding: 0 5px;
 }
 .search-sec button{
-  padding: 4px 7px;
+  width: 30%;
+  padding: 4px 0;
   border-radius: 6px;
   border: none;
 }
@@ -92,7 +92,7 @@
 
 .homeContent .movie-sec{
   width: 95%;
-  background-color: #000;
+  background-color: #201E43;
   margin: 5px auto;
 }
 .movieList{
@@ -107,12 +107,11 @@
   margin: 10px;
   flex-basis: 150px;
   height: 240px;
-  background-color: antiquewhite;
   border-radius: 5px;
 }
-a .movieDisplay:hover{
-  height: 250px;
-  margin: 11px;
+a .movieDisplay img:hover{
+  height: 175px;
+  width: 82%;
 }
 a .movieDisplay img{
   width: 80%;
@@ -121,11 +120,16 @@ a .movieDisplay img{
 }
 
 /* movie discription */
-
+.content{
+  width: 100%;
+  height: 100vh;
+  background-color: #134B70;
+}
 .content .movieDes{
+  position: relative;
   width: 90%;
   margin: auto;
-  background-color: antiquewhite;
+  background-color: #201E43;
 }
 .movieDes .movies .details{
   display: flex;
@@ -135,6 +139,7 @@ a .movieDisplay img{
 .movies .details img{
   width: 50%;
   margin-right: 10px;
+  border-radius: 10px;
 }
 .details div h2, h3{
   text-align: center;
@@ -152,6 +157,83 @@ a .movieDisplay img{
   padding: 10px 0;
   background-color: #fff;
   outline: none;
+  border: none;
   border-radius: 10px;
-  box-shadow: 1px 1px 9px #000;
+  box-shadow: 2px 1px 2px #000;
+}
+
+/* booking ticket */
+.booking-content{
+  position: fixed;
+  top: 40px;
+  width: 100%;
+  height: 100vh;
+  background-color: #134B70;
+}
+.booking-content .bookingSystem{
+  width: 50%;
+  height: 54vh;
+  background-color: #faebd7;
+  padding: 10px;
+  margin: 30vh auto;
+  border-radius: 10px;
+  box-shadow: 1px 2px 7px #333;
+}
+.bookingSystem h2{
+  text-align: center;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bookingSystem p{
+  text-align: left;
+  margin: 10px 0 10px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.bookingSystem .alert{
+  text-align: left;
+  margin: 10px 0 10px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #000;
+}
+.bookingSystem label{
+  margin: 4px 0 4px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.bookingSystem input{
+  width: 87%;
+  height: 27px;
+  margin: 4px auto;
+  padding: 0 0 0 9px;
+  border-radius: 9px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 1px 1px #000;
+  text-transform: none;
+}
+.bookingSystem button{
+  width: 60%;
+  padding: 8px 0;
+  margin: 15px 18%;
+  border-radius: 9px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 1px 1px #000;
+  color: #000;
+  background-color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (min-width:600px){
+  .movies .details img{
+    width: 30%;
+    margin:  0 20px;
+    border-radius: 10px;
+  }
+  .homeContent .search-sec{
+    width: 95%;
+    height: 5vh;
+  }
 }

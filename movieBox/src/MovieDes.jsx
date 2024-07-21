@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import useFetch from "../../jotter/src/useFetch";
 
 const MovieDes = () => {
 
@@ -44,7 +43,7 @@ const MovieDes = () => {
                             </div>
                         </div>
                         <div className="button">
-                            <a href="#">
+                            <a href={`/movies/${id}/ticket`}>
                                 <button>
                                     book ticket
                                 </button>
