@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYH3aTaWKrOgNLFV2Ofq8I6Y40JemlblsW6w&s",      
+      "title": "Inception",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology.",
+      "year": 2017,
+      "type": "action"
+    },
+    {
+      "id": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYH3aTaWKrOgNLFV2Ofq8I6Y40JemlblsW6w&s",   
+      "title": "Interstellar",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "year": 2018,
+      "type": "comedy"
+    },
+    {
+      "id": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp_grKNAXjQ0apZyl_h3bOmVQUzdcg_ip6yw&s",   
+      "title": "Top Gun: Maverick",
+      "description": "Tom Cruise had long since established himself as willing guinea pig for any and all death-defying physical stunts when time came to follow up his first blockbuster, “Top Gun” — so why wouldn’t he fly the actual Navy vessels that the characters pilot in “Maverick”? Partnering with director Joe Kosinski",
+      "year": 2022,
+      "type": "action"
+    },
+    {
+      "id": 4,
+      "image": "https://64.media.tumblr.com/0224993406567d3545e06cad4f19603b/tumblr_inline_o0bdu1H2JM1qz7fk7_1280.jpg",   
+      "title": "star war",
+      "description": "Tom Cruise had long since established himself as willing guinea pig for any and all death-defying physical stunts when time came to follow up his first blockbuster, “Top Gun” — so why wouldn’t he fly the actual Navy vessels that the characters pilot in “Maverick”? Partnering with director Joe Kosinski",
+      "year": 2022,
+      "type": "action"
+    },
+    {
+      "id": 5,
+      "image": "https://www.uphe.com/sites/default/files/styles/scale__344w_/public/2023/07/FastX_Poster%20ARt.jpg?itok=rlQoYVBu",   
+      "title": "fast X furious",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2012,
+      "type": "action"
+    },
+    {
+      "id": 6,
+      "image": "https://www.uphe.com/sites/default/files/styles/scale__344w_/public/2023/07/FastX_Poster%20ARt.jpg?itok=rlQoYVBu",   
+      "title": "fast X furious II",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2013,
+      "type": "action"
+    },
+    {
+      "id": 7,
+      "image": "https://www.uphe.com/sites/default/files/styles/scale__344w_/public/2023/07/FastX_Poster%20ARt.jpg?itok=rlQoYVBu",   
+      "title": "fast X furious III",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2014,
+      "type": "action"
+    },
+    {
+      "id": 8,
+      "image": "https://www.uphe.com/sites/default/files/styles/scale__344w_/public/2023/07/FastX_Poster%20ARt.jpg?itok=rlQoYVBu",   
+      "title": "fast X furious IV",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2015,
+      "type": "action"
+    },
+    {
+      "id": 9,
+      "image": "https://images-3.rakuten.tv/storage/global-movie/translation/artwork/9edad97c-af4f-451d-8e80-84e8440e8685-fast-furious-5-1611332430.jpeg",   
+      "title": "fast X furious V",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2016,
+      "type": "action"
+    },
+    {
+      "id": 10,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHB6VEGakbY1Tzt-cHyONYTGNKS6dfoDDfPw&s",   
+      "title": "fast X furious VI",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2017,
+      "type": "action"
+    },
+    {
+      "id": 11,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxQ22srgd0o7WqKdLUuAWo8sPm-pg56aobfg&s",   
+      "title": "fast X furious VII",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2018,
+      "type": "action"
+    },
+    {
+      "id": 12,
+      "image": "https://www.uphe.com/sites/default/files/styles/scale__344w_/public/2023/07/FastX_Poster%20ARt.jpg?itok=rlQoYVBu",   
+      "title": "fast X furious VIII",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2019,
+      "type": "action"
+    },
+    {
+      "id": 13,
+      "image": "https://zannaland.com/wp-content/uploads/2021/06/f9-poster-189x300.jpg",   
+      "title": "fast X furious IX",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2020,
+      "type": "action"
+    },
+    {
+      "id": 14,
+      "image": "https://mediafiles.cinema.com.hk/broadway/cmsimg/cinweb/movie/movie_1680166576.jpg",   
+      "title": "fast X furious X",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2021,
+      "type": "action"
+    },
+    {
+      "id": 15,
+      "image": "https://www.formulatv.com/images/series/posters/100/135/dest_1.jpg",   
+      "title": "naruto",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2009,
+      "type": "action"
+    },
+    {
+      "id": 16,
+      "image": "https://m.media-amazon.com/images/M/MV5BZGFiMWFhNDAtMzUyZS00NmQ2LTljNDYtMmZjNTc5MDUxMzViXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",   
+      "title": "naruto shippuden",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2014,
+      "type": "action"
+    },
+    {
+      "id": 17,
+      "image": "https://m.media-amazon.com/images/M/MV5BYjM0MDRkYzctMTNhMS00ODYwLTgwMWItZDYxNDlhOGY1YjRlXkEyXkFqcGdeQXVyMzExMzk5MTQ@._V1_FMjpg_UX1000_.jpg",   
+      "title": "boruto",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2021,
+      "type": "action"
+    },
+    {
+      "id": 18,
+      "image": "https://fictionoverlord.webresolvers.com/wp-content/uploads/2023/10/V-Jump.jpg",   
+      "title": "boruto two blue votex",
+      "description": "Fast & Furious, also known as The Fast and the Furious, is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.",
+      "year": 2021,
+      "type": "action"
+    }
+  ]
+  

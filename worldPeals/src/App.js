@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import NewStand from './NewStand';
 import MyProfile from './Myprofile';
 import Login from './Login';
+import signUp from './signUp';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
               </Route>
               <Route exact path="/profile/login">
                  < Login />
+              </Route>
+              <Route exact path="/profile/signup">
+                < signUp />
               </Route>
             </Switch>
           </div>

@@ -11,8 +11,10 @@
   padding: 0;
 }
 
+/* andriod layout */
+
 .navbar{
-  background-color: #ffff;
+  background-color: #333232;
   width: 100%;
   height: 50px;
   display: flex;
@@ -43,16 +45,20 @@
 /* ReqDetails */
 .DisRequest{
   width: 100%;
-  height: 100vh;
-  background-color: #20974e;
+  height: 40vh;
+  background-image: url(https://www.avanse.com/blogs/images/Planning-to-study-abroad.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 form label{
   margin: 15px 10px;
   font-size: 14px;
-  color: #000;
-  font-weight: 300;
+  color: #ffffff;
+  font-weight: 700;
   font-family: Helvetica;
   text-transform: capitalize;
+  text-shadow: 1px 1px 2px #111;
 }
 form select{
   margin: 10px 0 10px 0;
@@ -63,7 +69,7 @@ form select{
   border: none;
   border-radius: 2px;
   box-shadow: 1px 1px 2px #111;
-  background-color: #c4bebe50;
+  background-color: #c4bebe93;
 }
 form input{
   width: 24%;
@@ -72,20 +78,23 @@ form input{
   margin: 10px 0 10px 0;
   outline: none;
   box-shadow: 1px 1px 2px #111;
-  background-color: #c4bebe50;
+  background-color: #c4bebe8f;
   border: 0 solid;
   border-radius: 2px;
 }
 
 .ReqForm{
-  position: absolute;
-  margin: auto;
+  margin: 0 3%;
+/*   box-shadow: 1px 1px 4px #111; */
 }
 .ReqForm form{
   position: relative;
-  width: 290px;
-  margin: 20% 21%;
-  padding: 0 10px;
+  width: 80%;
+  margin: 10% auto;
+  padding: 0 5px;
+}
+.ReqForm form button{
+  margin: 0 20%;
 }
 
 /* display content */
@@ -98,8 +107,31 @@ form input{
 .disDocument{
   width: 100%;
   height: 100vh;
-  background-color: aquamarine;
+  background-color: #070606de;
 }
+.disDoc img{
+  width: 80%;
+  margin: 10% 9%;
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+}
+.disDoc button{
+  margin: 0 35%;
+}
+.disDoc p{
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
 /* home */
 .home{
   position: relative;
@@ -108,7 +140,43 @@ form input{
   flex-wrap: wrap;
   flex-direction: row;
 }
-.disDoc img{
-  width: 50px;
-  height: 50px;
+
+/* button */
+button{
+  padding: 6px 10px;
+  background-color: rgb(17, 122, 17);
+  color: #ffff;
+  font-family: Helvetica;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* desktop / tab layout */
+@media screen and (min-width:600px){
+
+  .DisRequest{
+    width: 50%;
+    height: 100vh;
+  }
+
+  .disDocument{
+    width: 50%;
+    height: 100vh;
+  }
+
+  .disDoc img{
+    width: 60%;
+    height: 80vh;
+    margin: 5% 20%;
+  }
+
+  .ReqForm{
+    margin: 0 3%;
+  }
+  .ReqForm form{
+    margin: 30% auto;
+  }
 }

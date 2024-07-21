@@ -41,7 +41,7 @@ const Home = () => {
         return(
             <div className="ReqForm">
                 <form onSubmit={SubmitHandler}>
-                    <label>course code</label>
+                    <label>course code:</label>
                     <input type="text" 
                     placeholder="COM115" 
                     required
@@ -50,7 +50,7 @@ const Home = () => {
                     autoFocus
                     >
                     </input><br/>
-                    <label>level</label>
+                    <label>level:</label>
                     <select className="level" 
                         required
                         value={level}
@@ -62,7 +62,7 @@ const Home = () => {
                         <option value="HND1">HND1</option>
                         <option value="HND2">HND2</option>
                     </select><br/>
-                    <label>program</label>
+                    <label>program:</label>
                     <select className="program" 
                         required
                         value={program}
@@ -72,7 +72,7 @@ const Home = () => {
                         <option value="FT/DPP">FT/DPP</option>
                         <option value="PT">PT</option>
                     </select><br/>
-                    <label>section</label>
+                    <label>section:</label>
                     <select className="section"
                     required
                     value={section}
@@ -102,7 +102,7 @@ const Home = () => {
                         </a>
                     </div>
                 ) : (
-                    <p>No document available</p>
+                    <p>No document available !!!!</p>
                 )}
             </div>
         )
@@ -115,4 +115,4 @@ const Home = () => {
      );
 }
  
-export default Home;
+export default Home; 

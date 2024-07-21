@@ -316,3 +316,52 @@ code {
 .newstand-preview .newstand-details h4{
   text-align: justify;
 }
+
+/* profile styling */
+.profile-content{
+  width: 100%;
+  height: auto;
+}
+.profile-content .profile-section{
+  display: flex;
+  width: 50%;
+  height: 100px;
+  margin: 40px auto;
+  padding: 15px 20px;
+  border-radius: 17px;
+  box-shadow: 1px 1px 10px #111;
+  flex-direction: row;
+  background-color: #f2f2f23d;
+}
+.profile-section .profileImage{
+  width: 70px;
+  height: 70px;
+  margin: 15px 50px 0 0;
+  border-radius: 30px;
+  background-image: url(https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profileImage img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.profile-section .logs{
+  margin: 30px 0;
+}
+.logs a button{
+  padding: 8px 17px;
+  border-radius: 7px;
+  border: none;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: 'Helvetica Neue';
+  background-color: #426B1F;
+  color: #ffff;
+  text-transform: capitalize;
+  margin: 0 15px;
+}
+.logs a button:hover{
+  background-color: #547c30;
+}

@@ -1,0 +1,157 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* default */
+*{
+  margin: 0;
+  padding: 0;
+  color: #fa0909;
+  font-family: Helvetica;
+  text-transform: capitalize;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+/* NavBar */
+.navBar{
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navBar h1{
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.navBar .page_logo{
+  width: 55px;
+  height: 35px;
+  line-height: 50px;
+  margin-top: 2px;
+  background-image: url("https://png.pngtree.com/png-clipart/20210411/original/pngtree-blue-pentagle-light-effect-movie-light-box-png-image_6222271.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* home container */
+
+.homeContent{
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+  padding: 5px 0 0 0;
+}
+.homeContent .search-sec{
+  width: 95%;
+  height: 5vh;
+  margin: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 15px 0 0 0;
+}
+.search-sec input{
+  width: 65%;
+  height: 20px;
+  outline: none;
+  padding: 0 5px;
+}
+.search-sec button{
+  padding: 4px 7px;
+  border-radius: 6px;
+  border: none;
+}
+.search-sec button:hover{
+  background-color: rgb(228, 141, 35);
+  color: #fff;
+}
+.search-sec h1{
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+
+/* movie list */
+
+.homeContent .movie-sec{
+  width: 95%;
+  background-color: #000;
+  margin: 5px auto;
+}
+.movieList{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.movieList h2{
+  text-align: center;
+}
+.movieList a .movieDisplay{
+  margin: 10px;
+  flex-basis: 150px;
+  height: 240px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+a .movieDisplay:hover{
+  height: 250px;
+  margin: 11px;
+}
+a .movieDisplay img{
+  width: 80%;
+  height: 170px;
+  margin: 8px 13px;
+}
+
+/* movie discription */
+
+.content .movieDes{
+  width: 90%;
+  margin: auto;
+  background-color: antiquewhite;
+}
+.movieDes .movies .details{
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 20px 5px;
+}
+.movies .details img{
+  width: 50%;
+  margin-right: 10px;
+}
+.details div h2, h3{
+  text-align: center;
+}
+.details div p{
+  text-align: justify;
+  margin: 5px 0;
+}
+.button a{
+  width: 100%;
+  padding: 0 5%;
+}
+.button a button{
+  width: 90%;
+  padding: 10px 0;
+  background-color: #fff;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 9px #000;
+}

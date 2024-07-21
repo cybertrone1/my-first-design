@@ -10,7 +10,7 @@ function App() {
         <div className='display-content'>
           < Home/>
         </div>
-    </div>
+      </div>
 
   )
 }

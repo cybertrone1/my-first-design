@@ -1,11 +1,33 @@
 {
-    "2021/2022": {
-        "ND1": {
-            "FT/DPP": {
-                "BUS213": "BUS213.jpg",
-                "COM211": "COM211.jpg",
-                "COM217": "COM217.jpg"
-            }
-        }
+  "2021/2022": {
+    "ND1": {
+      "FT/DPP": {
+        "COM114": "COM114_21.pdf",
+        "COM121": "COM121_21.pdf",
+        "COM123": "COM123_21.pdf",
+        "COM124": "COM124_21.pdf",
+        "COM125": "COM125_21.jpg",
+        "COM126": "COM126_21.pdf",
+        "GNS102": "GNS102_21.pdf",
+        "GNS112": "GNS112_21.jpg",
+        "MTH112": "MTH112_21.pdf"
+      }
     }
+  },
+  "2022/2023": {
+    "ND1": {
+      "FT/DPP": {
+        "COM111": "COM111_22.pdf",
+        "COM115": "COM115_22.pdf",
+        "COM116": "COM116_22.jpg",
+        "COM121": "COM121_22.pdf",
+        "COM124": "COM124_22.pdf",
+        "COM125": "COM125_22.jpg",
+        "COM123": "COM123_22.jpg",
+        "GNS101": "GNS101_22.jpg",
+        "GNS111": "GNS111_22.pdf",
+        "GNS112": "GNS112_22.pdf"
+      }
+    }
+  }
 }
