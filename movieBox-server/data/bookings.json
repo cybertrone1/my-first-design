@@ -46,5 +46,11 @@
     "movieId": "1",
     "userName": "adebayo adetola",
     "userEmail": "adetola123@gmail.com"
+  },
+  {
+    "id": 9,
+    "movieId": "1",
+    "userName": "ademola adebayo",
+    "userEmail": "ademola@gmail.com"
   }
 ]

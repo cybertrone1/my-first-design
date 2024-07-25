@@ -3,66 +3,98 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* .playwrite-hr-<uniquifier> {
+  font-family: "Playwrite HR", cursive;
+  font-family: "Montserrat", sans-serif;
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+} */
+/* default styling */
+*{
   margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  color: #000;
+  font-size: 13px;
+}
+
+/* navbar */
+.NavBar{
+  width: 100%;
+  height: 40px;
+  background-color: #E90074;
+}
+.NavBar h1{
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 40px;
+}
+
+/* sub - content design */
+.subContent{
+  background-color: #FF4191;
+  width: 100%;
+}
+
+.homeContent{
+  width: 100%;
+  height: 100vh;
+}
+.homeContent .Lpage{
+  width: 70%;
+  height: 50vh;
+  margin: auto;
+}
+.Lpage .ads{
+  padding-top: 20px;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.ads .logos{
+  width: 40%;
+  margin: 6px;
+  flex-basis: 70px;
+}
+.logos img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.logos p{
+  text-align: center;
+  font-weight: bold;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.Lpage .intro{
+  width: 80%;
+  height: 40vh;
+  text-align: center;
+  margin: 70px auto;
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.intro h1{
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0 0 20px 0;
 }
-button:hover {
-  border-color: #646cff;
+.intro p{
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0 0 20px 0;
+  font-family: "Playwrite HR", cursive;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.intro button{
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #FFF078;
+  color: #000;
+  font-weight: bold;
 }
